@@ -17,6 +17,8 @@ public class ConversorTemperatura{
                 System.out.println("Opção:");
                 op = entrada.nextInt();
 
+                //Pedro
+
                 if(op == 1){
                     System.out.println("\n\t\t\tCelsius -> Fahren\n");
                     
@@ -29,6 +31,8 @@ public class ConversorTemperatura{
                     
                     //Saida
                     System.out.printf(c + " é igual à " + f);
+
+                    //Natally
 
                 }else if(op ==2){
                     System.out.println("n\t\t\tFahren -> Celsius\n");
