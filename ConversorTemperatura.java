@@ -25,16 +25,24 @@ public class ConversorTemperatura{
                     c = entrada.nextDouble();
                     
                     //Processamento
-                    f = (9 * c) / 5 + 32;
+                    f = (c * 9) / 5 + 32;
                     
                     //Saida
                     System.out.printf(c + " é igual à " + f);
-                
 
-            }
+                }else if(op ==2){
+                    System.out.println("n\t\t\tFahren -> Celsius\n");
 
-
-
+                    //Entradas
+		             System.out.print("Informe graus f: ");
+		                f = entrada.nextDouble();
+		
+		            //Processamento
+		            c = (f - 32) * 5 /9 ;
+		
+		
+		            //Saída
+		            System.out.println(f + " é igual à " + c);}
         }while(op!=3);
     }
 }
